@@ -38,6 +38,7 @@ h1 {
 nav {
   display: flex;
   justify-content: space-between;
+  gap: 20px
 }
 
 button {
@@ -78,6 +79,9 @@ button:focus-visible {
   align-items: center;
   width: 100vw;
   height: 100vh;
+  flex-direction: column;
+  gap: 10px; 
+  
 }
 .light {
   background-color: white;
@@ -92,4 +96,5 @@ button:focus-visible {
 .content {
   width: 300px;
 }
+
 
